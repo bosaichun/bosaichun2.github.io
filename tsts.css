@@ -1,0 +1,51 @@
+body{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: blanchedalmond;
+}
+div{
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightcoral;
+	border-radius: 5px;
+	margin: 5px;
+}
+#center{
+	display: table;
+	width: 948px;
+}
+#nav,#content{
+	display: table-cell;
+}
+#nav{
+	width: 150px;
+}
+#header{
+	text-align: center;
+	font-size: 40px;
+	color: lightcoral;
+}
+h1{
+	text-align: center;
+	background-color: gainsboro;
+}
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid lightcoral;
+}
+h3{
+	text-align: center;
+}
+a{
+	text-align: center;
+}
